@@ -47,4 +47,5 @@ map <leader>r :call RopeRename()<CR>
 map <leader>o :call RopeOrganizeImports()<CR>
 map <leader>g :call RopeFindOccurrences()<CR>
 map <leader>d :call RopeShowDoc()<CR>
+map <leader>a :PyLintAuto<CR>
 map gd :call RopeGotoDefinition()<CR>
