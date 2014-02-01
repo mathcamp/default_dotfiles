@@ -115,5 +115,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+export EDITOR=/usr/bin/vim
 export GIT_EDITOR=/usr/bin/vim
-export PYTHONPATH=$PYTHONPATH:~/.pylint
+# activate autoenv
+. activate.sh

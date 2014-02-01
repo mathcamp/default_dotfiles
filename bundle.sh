@@ -1,2 +1,2 @@
 #!/bin/bash
-tar -czvvf default_dotfiles.tar.gz .* --exclude=. --exclude=.. --exclude=.git
+tar -czvvf default_dotfiles.tar.gz .* --exclude=. --exclude=.. --exclude=.git --exclude=.gitignore
